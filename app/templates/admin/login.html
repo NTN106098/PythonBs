@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='admin/admin.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main id="login_main">
+        <section class="login-page">
+
+            <div class="large-12 large-centered medium-12 medium-centered small-12" style="text-align: center; margin-bottom: 5vh;">
+                <div class="image"> <img src="https://adenztravel.vn/image/5fbdd5f0ba9bf0735ee4b39c/original.jpg" alt="logo" style="max-height: 100px;"> </div>
+                <h3 style="font-size: 56px; margin-bottom: 10px;" class="h3_login">Log In</h3>
+                <span class="new_user">Bạn là người mới?</span>
+                <a href="#" class="switch-form" onclick="myFunction()">
+                    <i class="fa fa-hand-o-right"></i>
+                    <span>Đăng Ký</span>
+                </a>
+            </div>
+            <div class="row">
+                <div class="large-6 medium-12 columns border-right">
+                    <div class="signup-form center-content lm-form " style="display: none;">
+                        <form class="register_form" action="/register" method="post">
+                            <input type="text" name="name" value="" placeholder="Họ tên">
+                            <input type="email" name="email" value="" placeholder="Email">
+                            <input type="hidden" value="/" name="next"> <input type="password" name="password" value="" placeholder="Mật khẩu">
+                            <input type="password" name="repassword" value="" placeholder="Mật lại khẩu mật khẩu">
+                            <button type="submit" class="register"><i class="fa fa-spin" onclick=""></i> Đăng ký</button>
+                        </form>
+                    </div>
+                    <div class="login-form lm-form" style="display:none; " id="abc">
+                        <form class="login_mobile_form" action="/login" method="post">
+                            <input type="text" name="email" value="" placeholder="Username/Email">
+                            <input type="password" name="password" value="" placeholder="Mật khẩu">
+                            <input type="hidden" value="/" name="next">
+                            <button type="submit" class="login_mobile"><i class="fa fa-spin"></i> Đăng nhập</button>
+                            <a style="float: right; line-height: 43px; color: #333; font-size: 18px; font-weight: 300;" href="/quen-mat-khau">Quên mật khẩu ?</a>
+                            <label style="float: left; line-height: 43px;" for="remember">
+                                <input type="checkbox" id="remember" name="remember">
+                                <span style="margin-top: -3px; color: #333;font-size: 18px; font-weight: 300;">Lưu mật khẩu</span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <script src="{{url_for('static', filename='js/login.js')}}"></script>
+</body>
+
+</html>

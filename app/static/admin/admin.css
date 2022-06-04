@@ -1,0 +1,90 @@
+.login_main {
+    display: block;
+}
+
+.login_page {
+    padding: 15vh 0px;
+    text-align: center;
+    height: calc(100vf - 32px);
+    min-height: 600px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form,
+.login-form {
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.lm-form {
+    width: 450px;
+    border-radius: 8px;
+    padding: 5px 50px;
+}
+
+.login_mobile_form {
+    position: absolute;
+    display: block;
+    padding-left: 50px;
+    width: 450px;
+}
+
+
+/* .login_mobile_form input {
+    display: block;
+    border: none;
+} */
+
+.signup-form,
+.login_mobile_form button {
+    display: block;
+}
+
+.register_form,
+.login_mobile_form input {
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #dce0e4;
+    background: #fff;
+    font-size: 18px;
+    box-shadow: none;
+    color: #000;
+}
+
+.register_form,
+.login_mobile_form button {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #51c4f9;
+    color: #51c4f9;
+    font-size: 25px;
+    background-color: #fff;
+}
+
+.register_form,
+.login_mobile_form button:hover {
+    background: #51c4f9;
+    color: #fff !important;
+}
+
+.login_mobile_form label {
+    font-size: 0.875rem;
+    color: #4d4d4d;
+    cursor: pointer;
+    display: inline !important;
+    margin-bottom: 0;
+}
+
+.login_mobile_form label span {
+    position: relative;
+}
+
+.switch-form .signup-form:hover {
+    display: block;
+}

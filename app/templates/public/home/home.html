@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/home-css/home.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/home-css/post-content.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/home-css/search.css')}}">
+
+
+    <!-- <link rel="stylesheet" href="../static/fontawesome-free/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapcode">
+        <div class="menu-top">
+            <section id="testing" class="main-menu-top hidden scrollbar-to-fixed" style=" position: fixed; top: 0px; margin-left: 0px; width: 1226px; left: 0px;">
+                <section class="header top-menu">
+                    <div class="row" style=>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="https://adenztravel.vn/static/themes/static_tralvel_projects/img/icon_address.png" alt="local-company"> địa chỉ:<strong> 58 Phổ Quang, Phường 2, Quận Tân Bình, TP. HCM</strong>
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="https://adenztravel.vn/static/themes/static_tralvel_projects/img/icon_mail.png" alt="email"> Email: <strong>CSKH@atoztravel.vn</strong>
+
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="right">
+                            <li>
+                                <a href="#" class="right">
+                                    <img src="https://adenztravel.vn/static/themes/static_tralvel_projects/img/icon_account.png" alt="login">Đăng Nhập
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+                <section class="main-menu">
+                    <div class="row">
+                        <ul>
+                            <li>
+                                <a href="#" style="padding-left: 0px;">
+                                    <img src="https://adenztravel.vn/image/5fbdd5f0ba9bf0735ee4b39c/original.jpg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" class="tour_slogan">
+                                    <img src="https://adenztravel.vn/static/themes/static_tralvel_projects/img/slogan.png">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="height: 66px;">
+							Hotline Tư Vấn:<strong style="color: var(--background); white-space: nowrap;">0938.146.118</strong>
+						</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#"><i class="fa fa-phone"></i> Khách đoàn: <b>0938.146.118</b></a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-phone"></i> Dịch vụ visa: <b>0938.146.118</b></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <section class="menu-primates">
+                    <div class="row">
+                        <ul class="menu-sub">
+                            <li class="li-task">
+                                <a href="#">TOUR NƯỚC NGOÀI</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">CHÂU Á</a><i class="fa-solid fa-angle-right"></i>
+                                    </li>
+                                    <li><a href="#">CHÂU MỸ</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="">CHÂU ÂU</a><i class="fa-solid fa-angle-right"></i></li>
+                                    <li><a href="#">CHÂU ÚC</a><i class="fa-solid fa-angle-right"></i></li>
+                                </ul>
+                            </li>
+                            <li class="li-task">
+                                <a href="#">TOUR TRONG NƯỚC</a>
+
+                            </li>
+                            <li class="li-task">
+                                <a href="#">DU LỊCH TỰ TÚC</a>
+                            </li>
+                            <li class="li-task">
+                                <a href="#">COMBO DU LỊCH</a>
+                            </li>
+                            <li class="li-task">
+                                <a href="#">GIỚI THIỆU</a>
+                            </li>
+                            <li class="li-task">
+                                <a href="#">TIN TỨC DU LỊCH</a>
+                            </li>
+                            <li class="li-task">
+                                <a href="">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <div class="right">
+                            <ul class="social-share">
+                                <li class="social-item social-item--facebook">
+                                    <i class="fab fa-facebook-square"></i>
+                                </li>
+                                <li class="social-item social-item--twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </li>
+                                <li class="social-item social-item--pinterest">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </li>
+                                <li class="social-item social-item--telegram">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+        </div>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://adenztravel.vn/image/5f700a3eba9bf05bff9bcf1c/original.jpg" class="d-block w-100" alt="banner">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://adenztravel.vn/image/5f700a67ba9bf05bff9bcf27/original.jpg" class="d-block w-100" alt="banner.vn">
+                </div>
+
+            </div>
+
+            <div class="search-inf row">
+                <div class="search">
+                    <img src="https://adenztravel.vn/static/themes/static_tralvel_projects/img/search_1.png" alt="search">
+                    <input type="text" placeholder="Nhập từ khóa cần tìm hoặc nơi bạn muốn đến">
+                </div>
+                <div class="button-search">
+                    <button type="submit">Tìm Tour</button>
+                </div>
+
+
+            </div>
+        </div>
+        <section class="home-main-tour-out-world">
+            <div class="bbbb">
+                <p id="text-content">TOUR ĐANG HOT</p>
+                <div class="straight"></div>
+                <div class="inf-all">
+                    <a href="#">Xem tất cả các tour đang hot</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="container">,
+                <div class="row post-content">
+                    {% for tour in tours %}
+                    <div class="col-6 col-md-4">
+
+                        <div class="card-desk">
+                            <div class="card">
+                                <div class="zoom">
+                                    <img class="card-img-top" src="{{ url_for('static',filename='img/') }}{{tour.image}}" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <a href="#"> {{tour.title}}</a>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row ">
+                                        <div class="part-footer">
+                                            <h6><i class="fa-solid fa-clock"></i>{{tour.longtrip}}</h6>
+                                            <p><i class="fa-solid fa-calendar-days"></i>{{tour.startday}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <span>{{tour.price}}</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <section class="home-main-tour">
+            <div class="bbbb">
+                <p id="text-content">TOUR Nước Ngoài</p>
+                <div class="straight"></div>
+                <div class="inf-all">
+                    <a href="#">Xem tất cả các <strong>Tour Nước Ngoài</strong></a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row post-content">
+                    <div class="col-6 col-md-4">
+                        <div class="card-desk">
+                            <div class="card">
+                                <div class="zoom">
+                                    <img class="card-img-top" src="https://adenztravel.vn/image/623d9dae16c3a05fde6047b3/thumbnail.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">Tour Campuchia: Siem Reap - Phnom Penh</a>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row ">
+                                        <div class="part-footer">
+                                            <h6><i class="fa-solid fa-clock"></i>Thời gian:4 ngày 3 đêm</h6>
+                                            <p><i class="fa-solid fa-calendar-days"></i>Khởi hành chưa có lịch</p>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <span>6.700.000 đ</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="home-main-tour-daily">
+            <div class="bbbb">
+                <p id="text-content">KÝ SỰ LỮ HÀNH</p>
+                <div class="straight"></div>
+                <div class="inf-all">
+                    <a href="#">Xem tất cả các tour đang hot</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row post-content">
+                    <div class="col-6 col-md-4">
+                        <div class="card-desk">
+                            <div class="card">
+                                <div class="zoom">
+                                    <img class="card-img-top" src="https://adenztravel.vn/image/623d9dae16c3a05fde6047b3/thumbnail.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">Tour Campuchia: Siem Reap - Phnom Penh</a>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row ">
+                                        <div class="part-footer">
+                                            <h6><i class="fa-solid fa-clock"></i>Thời gian:4 ngày 3 đêm</h6>
+                                            <p><i class="fa-solid fa-calendar-days"></i>Khởi hành chưa có lịch</p>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <span>6.700.000 đ</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="home-main-tour-hot">
+            <div class="bbbb">
+                <p id="text-content">ĐIỂM ĐẾN ĐANG HOT</p>
+                <div class="straight"></div>
+                <div class="inf-all">
+                    <a href="#">Xem tất cả các tour đang hot</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row post-content">
+                    <div class="col-6 col-md-4">
+                        <div class="card-desk">
+                            <div class="card">
+                                <div class="zoom">
+                                    <img class="card-img-top" src="https://adenztravel.vn/image/623d9dae16c3a05fde6047b3/thumbnail.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">Tour Campuchia: Siem Reap - Phnom Penh</a>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row ">
+                                        <div class="part-footer">
+                                            <h6><i class="fa-solid fa-clock"></i>Thời gian:4 ngày 3 đêm</h6>
+                                            <p><i class="fa-solid fa-calendar-days"></i>Khởi hành chưa có lịch</p>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                        <span>6.700.000 đ</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!--      <section class="submenu-container slider-fill">
+        	
+        </section>
+        <div class="search row">
+	        <img src="" alt="">
+	        <div class="form-group">
+	        	<div class="input">
+	        		
+	        	    <img src="https://adenztravel.vn/static/themes/static_tralvel_projects/img/search_1.png" alt="search">
+	        	    <input type="text" placeholder="Nhập từ khóa cần tìm hoặc nơi bạn muốn đến">
+	        	</div>	
+	        	
+	        	<button>Tìm Tour</button>
+	        </div>
+	        
+	     </div> -->
+    <script src="{{url_for('static',filename='js/app.js')}}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+</html>
